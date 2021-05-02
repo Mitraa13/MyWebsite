@@ -1,0 +1,310 @@
+.header{
+    border:solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Castellar";
+    color:deeppink;
+}
+
+body{
+    background-image: "images/bg.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme{
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.subheader1{
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family:"Copperplate";
+    font-weight: bold;
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+.subheader2{
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Brush Script MT";
+    font-size: 30px;
+    color: red;
+}
+
+.subheader3{
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Algerian";
+    font-size: 30px;
+    color:black;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.games:hover p{
+    opacity: 2;
+}
+.games img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.websites:hover img{
+    opacity: 0.5;
+}
+
+.simplegames{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.simplegames:hover p{
+    opacity: 2;
+}
+.simplegames img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.simple1:hover img{
+    opacity: 0.5;
+}
+.simple2:hover img{
+    opacity: 0.5;
+}
+.simple3:hover img{
+    opacity: 0.5;
+}
+.simple4:hover img{
+    opacity: 0.5;
+}
+
+.Ponggames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.Ponggames:hover p{
+    opacity: 2;
+}
+.Ponggames img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Pong1:hover img{
+    opacity: 0.5;
+}
+.Pong2:hover img{
+    opacity: 0.5;
+}
+.Pong3:hover img{
+    opacity: 0.5;
+}
+.Pong4:hover img{
+    opacity: 0.5;
+}
+
+.Infiniterunnergames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.Infiniterunnergames:hover p{
+    opacity: 2;
+}
+.Infiniterunnergames img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Infinite1:hover img{
+    opacity: 0.5;
+}
+.Infinite2:hover img{
+    opacity: 0.5;
+}
+.Infinite3:hover img{
+    opacity: 0.5;
+}
+.Infinite4:hover img{
+    opacity: 0.5;
+}
+.Infinite5:hover img{
+    opacity: 0.5;
+}
+.Infinite6:hover img{
+    opacity: 0.5;
+}
+
+.Sling-ShotGames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.Sling-ShotGames:hover p{
+    opacity: 2;
+}
+.Sling-ShotGames img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Sling-ShotGames1:hover img{
+    opacity: 0.5;
+}
+.Sling-ShotGames2:hover img{
+    opacity: 0.5;
+}
+.Sling-ShotGames3:hover img{
+    opacity: 0.5;
+}
+
+.multiplayergames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.multiplayergames:hover p{
+    opacity: 2;
+}
+.multiplayergames img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Multi1:hover img{
+    opacity: 0.5;
+}
+.Multi2:hover img{
+    opacity: 0.5;
+}
+.Multi3:hover img{
+    opacity: 0.5;
+}
+
+.Others{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.Others:hover p{
+    opacity: 2;
+}
+.Others img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Others1:hover img{
+    opacity: 0.5;
+}
+.Others2:hover img{
+    opacity: 0.5;
+}
+.Others3:hover img{
+    opacity: 0.5;
+}
+
+.pts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border: solid black;
+    padding: 20px;
+}
+.pts:hover p{
+    opacity: 2;
+}
+.pts img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.pts1:hover img{
+    opacity: 0.5;
+}
+.pts2:hover img{
+    opacity: 0.5;
+}
+.pts3:hover img{
+    opacity: 0.5;
+}
+.pts4:hover img{
+    opacity: 0.5;
+}
+.pts5:hover img{
+    opacity: 0.5;
+}
+.pts6:hover img{
+    opacity: 0.5;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-weight:500px;
+    font-family: "Comic sans MS";
+    color:mediumvioletred;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+    font-family: "Colonna MT";
+    font-weight: bold;
+    font-style: italic;
+    color:purple;
+    font-size: 30px;
+
+}
+h6{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.end{
+    /*background-color: lightpink;
+    border: lightpink;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+a:link{
+    color:crimson;
+}
+a:visited{
+    color: black;
+}

@@ -1,0 +1,113 @@
+
+h1 {
+    color:deeppink;
+}
+*{
+    background-image: "images/bg.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    /*background-color: lightpink;*/
+    border:solid;
+    display: flex;
+    justify-content: center;
+    font-family: "Castellar";
+}
+.aboutme{
+    /*background-color:lightpink;*/
+    border:solid;
+    display: flex;
+    justify-content: space-around;
+}
+.subheader1{
+    /*background-color:lightpink;*/
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family:"Edwardian Calligraphy ITC";
+    font-weight: bold;
+    font-size: 30px;
+    color: rebeccapurple;
+}
+.subheader2{
+    /*background-color:lightpink;*/
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Agency FB";
+    font-size: 20px;
+    color: red;
+}
+.subheader3{
+    /*background-color:lightpink;*/
+    border:solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Calbiri";
+    font-size: 20px;
+    color:black;
+}
+
+.games{
+    border:solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.games:hover p{
+    opacity: 2;
+}
+
+.games img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.game1:hover img{
+    opacity: 0.5;
+}
+.game2:hover img{
+    opacity: 0.5;
+}
+.game3:hover img{
+    opacity: 0.5;
+}
+.game4:hover img{
+    opacity: 0.5;
+}
+.game5:hover img{
+    opacity: 0.5;
+}
+.game6:hover img{
+    opacity: 0.5;
+}
+.game7:hover img{
+    opacity: 0.5;
+}
+
+p,h2{
+    text-align: center;
+    font-family: "Colonna MT";
+    font-weight: bold;
+    font-style: italic;
+    color:purple;
+    font-size: 30px;
+
+}
+.end{
+    /*background-color: lightpink;
+    border: lightpink;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+a:link{
+    color:crimson;
+}
+a:visited{
+    color: black;
+}
